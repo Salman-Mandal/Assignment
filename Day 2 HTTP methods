@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------HTTP METHODS--------------------------------------------------------------------------------------------------------------
+
+1. GET - The purpose of the GET method is to simply retrieve data from the server. It's typically used to fetch web pages, images, 
+or any other data from a server without causing any side effects. For example, when you visit a webpage, your browser sends a GET 
+request to the server to download the HTML content.
+
+2.POST- The POST HTTP request method sends data to the server for processing.The POST method submits data to the server, often causing
+a change in state or side effects on the server, such as creating a new user, submitting a form, or  processing a payment. The data is 
+usually sent in the body of the request.
+
+3.PUT - The PUT method sends data to the server to update an existing  resource or create a new  one if it  doesn't  exist.  Unlike  POST, 
+which is typically used for creation, PUT is more often associated with updating existing resources.
+
+4.DELETE - The DELETE method requests the server to delete the specified resource. For instance, deleting a user's account or removing an 
+item from a shopping cart
+
+5.PATCH - Apply partial modifications to a resource.The PATCH method is used to update parts of a resource rather than replacing the entire
+resource as with PUT. It’s useful when only a few fields of a resource need to be updated.
